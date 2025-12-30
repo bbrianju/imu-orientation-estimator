@@ -14,7 +14,17 @@ gyroscope integration and accelerometer tilt using a complementary filter.
 - Complementary filter fuses both estimates
 
 ## Results
-![Complementary filter output](figures/complementary_filter_roll.png)
+### Gyroscope Integration (Drift)
+![Gyro drift](figures/gyro_roll_drift.png)
+
+
+### Accelerometer Tilt Estimate
+![Accelerometer roll](figures/accel_roll_tilt.png)
+
+### Complementary Filter Roll Estimate
+![Complementary filter roll](figures/complementary_filter_roll.png)
+
+
 
 The fused signal tracks fast motion from the gyroscope while correcting
 long-term drift using accelerometer measurements.
